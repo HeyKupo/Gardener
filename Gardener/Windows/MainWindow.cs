@@ -1542,6 +1542,12 @@ namespace Gardener.Windows
                 return;
             }
 
+            if (rec.KeepUnharvested && state.Maturity == Maturity.MatureCandidate)
+            {
+                HubText.Good(Strings.Garden_WhenKept);
+                return;
+            }
+
             var now = DateTimeOffset.UtcNow;
             var wiltsAt = Growth.WiltsAt(rec);
             if (wiltsAt is { } wa && wa <= now)

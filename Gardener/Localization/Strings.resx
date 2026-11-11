@@ -524,6 +524,10 @@
     <value>Right-click the crop name to keep it out of harvest sweeps.</value>
     <comment>MainWindow.DrawBedTooltip, discoverability hint for the KeepUnharvested toggle, shown while it is not set. No slots.</comment>
   </data>
+  <data name="Garden_WhenKept" xml:space="preserve">
+    <value>Mature; kept.</value>
+    <comment>MainWindow.DrawWhenCell, shown instead of the ready/harvest sentences for a mature bed with BedRecord.KeepUnharvested set. No slots.</comment>
+  </data>
   <data name="Garden_CropRipe" xml:space="preserve">
     <value>ripe</value>
     <comment>MainWindow.DrawBedTooltip, MenuKey.TalkRipe branch. Gardener's own summary word.</comment>

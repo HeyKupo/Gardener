@@ -1290,6 +1290,9 @@
   <data name="Garden_KeepHint" xml:space="preserve">
     <value>Haz clic derecho en el nombre del cultivo para excluirlo de las cosechas automáticas.</value>
   </data>
+  <data name="Garden_WhenKept" xml:space="preserve">
+    <value>Madura; conservada.</value>
+  </data>
   <data name="Fertilize_AlreadyMature" xml:space="preserve">
     <value>{0} parcela {1}: ya está madura; el abono no haría nada.</value>
   </data>
